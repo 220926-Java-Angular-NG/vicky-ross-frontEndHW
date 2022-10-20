@@ -1,0 +1,102 @@
+/*
+In order from dark to light:
+6A6647
+75704E
+A09E6F
+CACC90
+DFDCA7
+F4EBBE
+*/
+nav{
+    background-color: #F4EBBE;
+    justify-content: space-evenly;
+    width: 100vw;
+    color: #CACC90;
+    text-shadow: 1px 1px #DFDCA7;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    padding-block: 5px;
+}
+button{
+    background-color: #6A6647;
+    color: white;
+    text-shadow: 1px 1px #DFDCA7;
+    font-family: 'Montserrat', sans-serif;
+    border-color: #CACC90;
+    border-radius: 10px;
+    height: 40px;
+}
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+body{
+    background-color: #75704E;
+    font-family: 'Montserrat', sans-serif;
+}
+.column2{
+    float:left;
+    width: 25%;
+    color:#DFDCA7;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+}
+.column1{
+    float: right;
+    width: 75%;
+    height: 500px;
+    color: #6A6647;
+    text-shadow: #DFDCA7;
+    background-color: #A09E6F;
+    font-family: 'Montserrat', sans-serif;
+}
+.inputRec{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.inputBox{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.submit{
+    height: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+label{
+    color: black;
+}
+table, th, td{
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+    column-width: 250px;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #6A6647;
+}
+tr:nth-child(odd){
+    background-color: #75704E;
+}
+.kermit{
+    width:50%;
+    height:50%;
+}
+footer{
+    background-color: #75704E;
+    width: 100vw;
+    color: #F4EBBE;
+    font-family: 'Montserrat', sans-serif;
+}

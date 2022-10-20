@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./lookinPretty.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,600;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>220613 Playlist</title>
+    <nav style="margin:0">
+        <img class="logo" src="./images/links.png">
+        <button class="home">
+            Home
+        </button>
+        <button class="recs">
+            Enter Your Recommendation
+        </button>
+        <button class="contact">
+            Contact Us
+        </button>
+        <button>
+            Explore Music
+        </button>
+        <button>
+            A Surprise
+        </button>
+    </nav>
+    <hr>
+</head>
+<body>
+    <div class="column1" id="column1">
+        <div class="inputRec" id="inputRec">
+            <h2 style="text-shadow: 1px 2px #6A6647;">Enter your song recommendation</h2>
+            <hr>
+            <form>
+                <div class="inputBox" id="inputBox">
+                    <label for="genre">
+                        Genre
+                    </label>
+                    <!--
+                    <select name="genre" id="genre">
+                        <option hidden disabled selected value>Select</option>
+                        <option value="rock">Rock</option>
+                        <option value="pop">Pop</option>
+                        <option value="hiphop">Hip-Hop</option>
+                        <option value="rnb">RnB</option>
+                        <option value="blues">Blues</option>
+                        <option value="indie">Indie/Alternative</option>
+                        <option value="latin">Latin</option>
+                        <option value="classical">Classical</option>
+                        <option value="other">Other</option>
+                    </select>
+                    -->
+                    <input type="text" id="genre">
+                    <label for="artist">Artist</label>
+                    <input type = "text" id="artist">
+                    <label for="track">Title</label>
+                    <input type = "text" id="track">
+                </div>
+                <div >
+                    <button class="submit" id="submit" onclick="addRow();">
+                    SUBMIT
+                    </button>
+                </div>
+            </form>
+        </div>
+        
+        <table id="table" style="color:black" style="text-shadow:1px 1px black">
+            <tr>
+                    <th>Genre</th>
+                    <th>Artist</th>
+                    <th>Title</th>
+            </tr>
+        </table>
+    
+    </div>
+    <div class="column2">
+        <h2 style="text-shadow: 1px 2px #A09E6F;">Welcome to the Cohort's Playlist</h2>
+        <h4>You will find our selection of songs to the right of this page.</h4>
+        <h5>Enter your favorite song for the rest of us to enjoy!</h5>
+        <img class="kermit" src="./images/kerms.jpg">
+    </div>
+    <footer>
+        <br>
+        <h3>Hope you enjoyed your stay.</h3>
+
+    </footer>
+    <script src="./recs.js"></script>
+</body>
+
+</html>
